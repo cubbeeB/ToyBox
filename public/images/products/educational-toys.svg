@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Educational wooden sorter</title>
+  <desc id="desc">Wooden shape sorter and learning toys on a pastel background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dcfce7"/>
+      <stop offset=".52" stop-color="#fef9c3"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="17" stdDeviation="16" flood-color="#14532d" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <circle cx="160" cy="145" r="62" fill="#38bdf8" opacity=".22"/>
+  <circle cx="745" cy="135" r="88" fill="#f472b6" opacity=".18"/>
+  <circle cx="720" cy="540" r="100" fill="#facc15" opacity=".2"/>
+  <g filter="url(#shadow)">
+    <ellipse cx="450" cy="565" rx="275" ry="46" fill="#0f172a" opacity=".11"/>
+    <rect x="255" y="245" width="390" height="250" rx="32" fill="#d97706"/>
+    <rect x="290" y="280" width="320" height="180" rx="24" fill="#fbbf24"/>
+    <circle cx="370" cy="370" r="45" fill="#ef4444"/>
+    <rect x="455" y="325" width="92" height="92" rx="18" fill="#22c55e"/>
+    <path d="M330 220h240l-120-95z" fill="#92400e"/>
+    <path d="M450 145l-78 62h156z" fill="#3b82f6"/>
+    <circle cx="675" cy="430" r="58" fill="#8b5cf6"/>
+    <path d="M675 385l13 29 31 3-23 21 7 30-28-16-27 16 6-30-22-21 30-3z" fill="#ffffff" opacity=".95"/>
+    <rect x="145" y="430" width="105" height="105" rx="24" fill="#10b981" transform="rotate(-10 197 482)"/>
+    <circle cx="198" cy="482" r="29" fill="#ffffff" opacity=".9"/>
+  </g>
+</svg>

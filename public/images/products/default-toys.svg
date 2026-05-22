@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">ToyBox toys</title>
+  <desc id="desc">Bright toy shop composition with a gift, ball, blocks and star.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset=".5" stop-color="#ffe4e6"/>
+      <stop offset="1" stop-color="#d1fae5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#334155" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <circle cx="160" cy="125" r="68" fill="#60a5fa" opacity=".22"/>
+  <circle cx="760" cy="150" r="82" fill="#fb7185" opacity=".18"/>
+  <g filter="url(#shadow)">
+    <ellipse cx="450" cy="566" rx="300" ry="48" fill="#0f172a" opacity=".12"/>
+    <rect x="335" y="295" width="230" height="200" rx="28" fill="#f59e0b"/>
+    <rect x="425" y="295" width="50" height="200" fill="#ef4444"/>
+    <rect x="315" y="250" width="270" height="65" rx="20" fill="#fbbf24"/>
+    <rect x="425" y="250" width="50" height="65" fill="#ef4444"/>
+    <path d="M425 250c-75-18-83-88-35-96 40-7 60 45 60 96z" fill="#ef4444"/>
+    <path d="M475 250c75-18 83-88 35-96-40-7-60 45-60 96z" fill="#ef4444"/>
+    <circle cx="210" cy="445" r="72" fill="#3b82f6"/>
+    <path d="M157 396c37 23 75 61 99 107" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" opacity=".75"/>
+    <rect x="620" y="405" width="108" height="108" rx="22" fill="#10b981" transform="rotate(12 674 459)"/>
+    <circle cx="674" cy="459" r="30" fill="#ffffff" opacity=".85"/>
+    <path d="M676 200l25 52 57 8-41 40 10 56-51-27-51 27 10-56-41-40 57-8z" fill="#facc15"/>
+  </g>
+</svg>
